@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="glass-effect p-8">
+          <div className="glass-effect p-6 md:p-8">
             <h3 className="text-2xl font-semibold mb-6 gradient-text">
               Get in Touch
             </h3>
@@ -271,7 +271,7 @@ const Contact: React.FC = () => {
           </div>
 
           <div className="flex flex-col justify-between gap-8">
-            <div className="glass-effect p-8">
+            <div className="glass-effect p-6 md:p-8">
               <h3 className="text-2xl font-semibold mb-6 gradient-text">
                 Contact Information
               </h3>
@@ -285,8 +285,8 @@ const Contact: React.FC = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 text-secondary hover:text-white group transition-colors"
                   >
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-black-100 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                      <social.icon className="w-6 h-6 text-accent" />
+                    <div className="flex-shrink-0 w-10 md:w-12 h-10 md:h-12 rounded-full bg-black-100 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                      <social.icon className="w-5 md:w-6 h-5 md:h-6 text-accent" />
                     </div>
                     <div>
                       <p className="font-medium text-white">{social.name}</p>
@@ -299,7 +299,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            <div className="glass-effect p-8">
+            <div className="glass-effect p-6 md:p-8">
               <h3 className="text-2xl font-semibold mb-4 gradient-text">
                 Let's Build Together
               </h3>

@@ -25,14 +25,14 @@ const Education: React.FC = () => {
           {education.map((edu, index) => (
             <motion.div
               key={index}
-              className="glass-effect p-8 flex gap-6"
+              className="glass-effect p-6 md:p-8 flex gap-6"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true, amount: 0.1 }}
             >
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
-                <GraduationCap className="w-6 h-6 text-accent" />
+              <div className="flex-shrink-0 w-10 md:w-12 h-10 md:h-12 rounded-full bg-accent/20 flex items-center justify-center">
+                <GraduationCap className="w-5 md:w-6 h-5 md:h-6 text-accent" />
               </div>
               
               <div>
