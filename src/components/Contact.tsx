@@ -162,7 +162,7 @@ const Contact: React.FC = () => {
 
             <div className="space-y-6">
               <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2 flex items-center gap-2">
+                <label className="text-sm font-medium text-slate-300 mb-2 flex items-center gap-2">
                   <User size={16} />
                   Your Name
                 </label>
